@@ -21,8 +21,10 @@
 }
 
 .pkp_html .pkp_body #pkp-container.pkp-container_800 .pkp-payment-method {
+  position: relative;
   margin-left: 8px;
   padding-bottom: 10px;
+  z-index: 1;
 }
 
 .invoice-amount {
@@ -37,24 +39,33 @@
 
 .payment-list {
   position: relative;
+  top: -2px;
   float: right;
   display: inline-block;
   vertical-align: top;
   font-size: 13px;
   font-weight: 700;
   line-height: 15px;
-  margin-right: 20px;
-  padding-top: 9px;
-  color: #177a93;
-  border-bottom: 1px dotted #177a93;
+  /* margin-right: 20px; */
+  margin-right: 8px;
+  /* padding-top: 9px; */
+  padding: 8px 19px;
+  padding-left: 32px;
+  background-color: #6c6;
+  color: #fff;
+  /* color: #177a93;
+  border-bottom: 1px dotted #177a93; */
+  border-radius: 5px;
   cursor: pointer;
   z-index: 1;
 }
 
 .payment-list::before {
   position: absolute;
-  top: 14px;
-  left: -19px;
+  /* top: 14px; */
+  top: 12px;
+  /* left: -19px; */
+  left: 12px;
   content: "";
   display: block;
   width: 12px;
@@ -201,6 +212,10 @@
   position: relative;
 }
 
+.payment-list--show {
+  background-color: transparent;
+}
+
 .payment-list--show::before {
   transform: rotate(180deg);
 }
@@ -209,10 +224,12 @@
   display: none;
   position: absolute;
   top: -8px;
-  right: 0;
+  /* right: 0; */
+  right: 10px;
   width: 237px;
   height: 65px;
-  background-color: #f7f5f3;
+  /* background-color: #f7f5f3; */
+  background-color: #6c6;
   border-radius: 10px;
   z-index: 0;
 }
@@ -423,7 +440,12 @@
   }
 
   .payment-list {
-    margin-right: 21px;
+    /* margin-right: 21px; */
+    margin-right: 27px;
+  }
+
+  .payment-list--show {
+    margin-right: 47px;
   }
 
   .pkp_html .pkp_body #pkp-container .pkp-payment-method__item {
