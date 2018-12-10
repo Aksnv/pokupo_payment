@@ -1,0 +1,36 @@
+.footer .contact-icon.viber {
+  width: 16px;
+  height: 18px;
+  background-image: url(images/main_sprite.png);
+  background-position: -832px -756px;
+}
+
+.footer .contact-icon.whatsup {
+  width: 18px;
+  height: 18px;
+  background-image: url(images/main_sprite.png);
+  background-position: -833px -780px;
+}
+
+.footer .contact-icon.telegram {
+  width: 18px;
+  height: 16px;
+  background-image: url(images/main_sprite.png);
+  background-position: -830px -732px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .footer .columns .column.fourth {
+    margin-top: 135px;
+  }
+
+}
+
+@media screen and (max-width: 639px) {
+
+  .footer .columns .column.fourth {
+    margin-top: 75px;
+  }
+
+}
