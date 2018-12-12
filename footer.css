@@ -19,9 +19,120 @@
   background-position: -830px -732px;
 }
 
+.footer .social {
+  white-space: normal;
+}
+
+.footer .social .social__icon.am, 
+.footer .social .social__icon:active.am, 
+.footer .social .social__icon:hover.am,
+.footer .social .social__icon.eb, 
+.footer .social .social__icon:active.eb, 
+.footer .social .social__icon:hover.eb,
+.footer .social .social__icon.in, 
+.footer .social .social__icon:active.in, 
+.footer .social .social__icon:hover.in,
+.footer .social .social__icon.ln, 
+.footer .social .social__icon:active.ln, 
+.footer .social .social__icon:hover.ln,
+.footer .social .social__icon.ok, 
+.footer .social .social__icon:active.ok, 
+.footer .social .social__icon:hover.ok,
+.footer .social .social__icon.pt, 
+.footer .social .social__icon:active.pt, 
+.footer .social .social__icon:hover.pt,
+.footer .social .social__icon.tg, 
+.footer .social .social__icon:active.tg, 
+.footer .social .social__icon:hover.tg,
+.footer .social .social__icon.yt, 
+.footer .social .social__icon:active.yt, 
+.footer .social .social__icon:hover.yt {
+  width: 36px;
+  height: 35px;
+  background-image: url(images/main_sprite.png);
+}
+
+.footer .social .social__icon.am {
+  background-position: -560px -827px;
+}
+
+.footer .social .social__icon:active.am,
+.footer .social .social__icon:hover.am {
+  background-position: -560px -866px;
+}
+
+.footer .social .social__icon.eb {
+  background-position: -601px -827px;
+}
+
+.footer .social .social__icon:active.eb,
+.footer .social .social__icon:hover.eb {
+  background-position: -601px -866px;
+}
+
+.footer .social .social__icon.in {
+  background-position: -643px -827px;
+}
+
+.footer .social .social__icon:active.in,
+.footer .social .social__icon:hover.in {
+  background-position: -644px -867px;
+}
+
+.footer .social .social__icon.ln {
+  background-position: -685px -827px;
+}
+
+.footer .social .social__icon:active.ln,
+.footer .social .social__icon:hover.ln {
+  background-position: -686px -866px;
+}
+
+.footer .social .social__icon.ok {
+  background-position: -725px -827px;
+}
+
+.footer .social .social__icon:active.ok,
+.footer .social .social__icon:hover.ok {
+  background-position: -725px -866px;
+}
+
+.footer .social .social__icon.pt {
+  background-position: -765px -827px;
+}
+
+.footer .social .social__icon:active.pt,
+.footer .social .social__icon:hover.pt {
+  background-position: -765px -866px;
+}
+
+.footer .social .social__icon.tg {
+  background-position: -805px -827px;
+}
+
+.footer .social .social__icon:active.tg,
+.footer .social .social__icon:hover.tg {
+  background-position: -806px -866px;
+}
+
+.footer .social .social__icon.yt {
+  background-position: -845px -837px;
+}
+
+.footer .social .social__icon:active.yt,
+.footer .social .social__icon:hover.yt {
+  background-position: -845px -874px;
+}
+
+
 @media screen and (max-width: 1024px) {
 
+  .footer .columns .content {
+    border-right: none;
+  }
+
   .footer .columns .column.fourth {
+    width: 100%;
     margin-top: 135px;
   }
 
@@ -30,7 +141,9 @@
 @media screen and (max-width: 639px) {
 
   .footer .columns .column.fourth {
-    margin-top: 75px;
+    position: static;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
 
 }
