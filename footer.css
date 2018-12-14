@@ -46,7 +46,16 @@
 .footer .social .social__icon:hover.tg,
 .footer .social .social__icon.yt, 
 .footer .social .social__icon:active.yt, 
-.footer .social .social__icon:hover.yt {
+.footer .social .social__icon:hover.yt,
+.footer .social .social__icon.tm, 
+.footer .social .social__icon:active.tm, 
+.footer .social .social__icon:hover.tm,
+.footer .social .social__icon.xg, 
+.footer .social .social__icon:active.xg, 
+.footer .social .social__icon:hover.xg,
+.footer .social .social__icon.rd, 
+.footer .social .social__icon:active.rd, 
+.footer .social .social__icon:hover.rd {
   width: 36px;
   height: 35px;
   background-image: url(images/main_sprite.png);
@@ -122,6 +131,33 @@
 .footer .social .social__icon:active.yt,
 .footer .social .social__icon:hover.yt {
   background-position: -845px -874px;
+}
+
+.footer .social .social__icon.tm {
+  background-position: -561px -909px;
+}
+
+.footer .social .social__icon:active.tm,
+.footer .social .social__icon:hover.tm {
+  background-position: -603px -909px;
+}
+
+.footer .social .social__icon.xg {
+  background-position: -733px -909px;
+}
+
+.footer .social .social__icon:active.xg,
+.footer .social .social__icon:hover.xg {
+  background-position: -775px -909px;
+}
+
+.footer .social .social__icon.rd {
+  background-position: -647px -909px;
+}
+
+.footer .social .social__icon:active.rd,
+.footer .social .social__icon:hover.rd {
+  background-position: -690px -909px;
 }
 
 
