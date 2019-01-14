@@ -28,6 +28,13 @@
   background-position: -830px -732px;
 }
 
+.footer .contact-icon.address {
+  width: 20px;
+  height: 14px;
+  background-image: url(images/main_sprite.png);
+  background-position: -832px -710px;
+}
+
 .footer .social {
   white-space: normal;
 }
