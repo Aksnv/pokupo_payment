@@ -1,3 +1,15 @@
+.footer .column.first {
+  width: 27%;
+}
+
+.footer .column.second {
+  left: 27%;
+}
+
+.footer .column.third {
+  left: 47%;
+}
+
 .footer .contact-icon.phone {
   top: 2px;
   left: 1px;
@@ -183,17 +195,30 @@
     border-right: none;
   }
 
+  .footer .columns .column {
+    width: 33%;
+  }
+
   .footer .columns .column.fourth {
-    width: 100%;
-    margin-top: 135px;
+    position: absolute;
+    left: 40%;
+    bottom: 30%;
+    width: 60%;
+    /*margin-top: 135px;*/
+    margin-top: 0;
   }
 
 }
 
 @media screen and (max-width: 639px) {
 
+  .footer .columns .column {
+    width: 100%;
+  }
+
   .footer .columns .column.fourth {
     position: static;
+    width: 100%;
     margin-top: 30px;
     margin-bottom: 20px;
   }
