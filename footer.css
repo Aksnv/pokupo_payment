@@ -1,3 +1,12 @@
+.footer .contact-icon.phone {
+  top: 2px;
+  left: 1px;
+  width: 13px;
+  height: 18px;
+  background-image: url(images/main_sprite.png);
+  background-position: -836px -804px;
+}
+
 .footer .contact-icon.viber {
   width: 16px;
   height: 18px;
